@@ -1,0 +1,24 @@
+[2022-04-27 10:05:20,871] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: first.scrape manual__2022-04-27T10:05:20.037814+00:00 [queued]>
+[2022-04-27 10:05:20,887] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: first.scrape manual__2022-04-27T10:05:20.037814+00:00 [queued]>
+[2022-04-27 10:05:20,888] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-27 10:05:20,888] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-04-27 10:05:20,889] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-27 10:05:20,912] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): scrape> on 2022-04-27 10:05:20.037814+00:00
+[2022-04-27 10:05:20,918] {standard_task_runner.py:52} INFO - Started process 3238 to run task
+[2022-04-27 10:05:20,923] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'first', 'scrape', 'manual__2022-04-27T10:05:20.037814+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/first.py', '--cfg-path', '/tmp/tmpmqqv8kgn', '--error-file', '/tmp/tmpynir_en1']
+[2022-04-27 10:05:20,924] {standard_task_runner.py:80} INFO - Job 9: Subtask scrape
+[2022-04-27 10:05:21,000] {logging_mixin.py:109} INFO - Running <TaskInstance: first.scrape manual__2022-04-27T10:05:20.037814+00:00 [running]> on host 65467f9f0591
+[2022-04-27 10:05:21,068] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=first
+AIRFLOW_CTX_TASK_ID=scrape
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-27T10:05:20.037814+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-27T10:05:20.037814+00:00
+[2022-04-27 10:05:21,069] {first.py:22} INFO - performing scraping
+[2022-04-27 10:05:21,069] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-27 10:05:21,081] {taskinstance.py:1288} INFO - Marking task as SUCCESS. dag_id=first, task_id=scrape, execution_date=20220427T100520, start_date=20220427T100520, end_date=20220427T100521
+[2022-04-27 10:05:21,136] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-27 10:05:21,179] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

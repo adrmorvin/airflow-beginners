@@ -1,0 +1,476 @@
+[2022-05-17 06:58:10,329] {processor.py:163} INFO - Started process (PID=10478) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 06:58:10,332] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 06:58:10,344] {logging_mixin.py:109} INFO - [2022-05-17 06:58:10,343] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 06:58:10,411] {logging_mixin.py:109} INFO - [2022-05-17 06:58:10,399] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 06:58:10,413] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 06:58:10,493] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.168 seconds
+[2022-05-17 06:58:41,486] {processor.py:163} INFO - Started process (PID=10540) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 06:58:41,487] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 06:58:41,488] {logging_mixin.py:109} INFO - [2022-05-17 06:58:41,488] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 06:58:41,507] {logging_mixin.py:109} INFO - [2022-05-17 06:58:41,503] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 06:58:41,508] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 06:58:41,531] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.048 seconds
+[2022-05-17 06:59:11,587] {processor.py:163} INFO - Started process (PID=10610) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 06:59:11,588] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 06:59:11,589] {logging_mixin.py:109} INFO - [2022-05-17 06:59:11,589] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 06:59:11,601] {logging_mixin.py:109} INFO - [2022-05-17 06:59:11,599] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 06:59:11,602] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 06:59:11,626] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.042 seconds
+[2022-05-17 06:59:41,716] {processor.py:163} INFO - Started process (PID=10675) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 06:59:41,718] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 06:59:41,718] {logging_mixin.py:109} INFO - [2022-05-17 06:59:41,718] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 06:59:41,758] {logging_mixin.py:109} INFO - [2022-05-17 06:59:41,753] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 06:59:41,759] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 06:59:41,782] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.069 seconds
+[2022-05-17 07:00:12,384] {processor.py:163} INFO - Started process (PID=10749) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:00:12,385] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:00:12,385] {logging_mixin.py:109} INFO - [2022-05-17 07:00:12,385] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:00:12,400] {logging_mixin.py:109} INFO - [2022-05-17 07:00:12,398] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:00:12,401] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:00:12,426] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.045 seconds
+[2022-05-17 07:00:43,206] {processor.py:163} INFO - Started process (PID=10812) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:00:43,208] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:00:43,208] {logging_mixin.py:109} INFO - [2022-05-17 07:00:43,208] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:00:43,223] {logging_mixin.py:109} INFO - [2022-05-17 07:00:43,220] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:00:43,224] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:00:43,245] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.043 seconds
+[2022-05-17 07:01:13,893] {processor.py:163} INFO - Started process (PID=10885) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:01:13,894] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:01:13,895] {logging_mixin.py:109} INFO - [2022-05-17 07:01:13,895] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:01:13,909] {logging_mixin.py:109} INFO - [2022-05-17 07:01:13,906] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:01:13,910] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:01:13,933] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.042 seconds
+[2022-05-17 07:01:44,676] {processor.py:163} INFO - Started process (PID=10947) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:01:44,677] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:01:44,678] {logging_mixin.py:109} INFO - [2022-05-17 07:01:44,678] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:01:44,691] {logging_mixin.py:109} INFO - [2022-05-17 07:01:44,688] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:01:44,692] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:01:44,713] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.039 seconds
+[2022-05-17 07:02:15,297] {processor.py:163} INFO - Started process (PID=11021) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:02:15,298] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:02:15,299] {logging_mixin.py:109} INFO - [2022-05-17 07:02:15,298] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:02:15,312] {logging_mixin.py:109} INFO - [2022-05-17 07:02:15,310] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:02:15,313] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:02:15,334] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.040 seconds
+[2022-05-17 07:02:45,384] {processor.py:163} INFO - Started process (PID=11093) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:02:45,385] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:02:45,386] {logging_mixin.py:109} INFO - [2022-05-17 07:02:45,386] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:02:45,399] {logging_mixin.py:109} INFO - [2022-05-17 07:02:45,396] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:02:45,400] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:02:45,421] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.040 seconds
+[2022-05-17 07:03:15,611] {processor.py:163} INFO - Started process (PID=11157) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:03:15,612] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:03:15,613] {logging_mixin.py:109} INFO - [2022-05-17 07:03:15,613] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:03:15,633] {logging_mixin.py:109} INFO - [2022-05-17 07:03:15,628] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:03:15,635] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:03:15,658] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.050 seconds
+[2022-05-17 07:03:46,312] {processor.py:163} INFO - Started process (PID=11232) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:03:46,314] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:03:46,315] {logging_mixin.py:109} INFO - [2022-05-17 07:03:46,315] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:03:46,334] {logging_mixin.py:109} INFO - [2022-05-17 07:03:46,331] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:03:46,335] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:03:46,356] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.047 seconds
+[2022-05-17 07:04:17,071] {processor.py:163} INFO - Started process (PID=11296) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:04:17,072] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:04:17,072] {logging_mixin.py:109} INFO - [2022-05-17 07:04:17,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:04:17,085] {logging_mixin.py:109} INFO - [2022-05-17 07:04:17,083] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:04:17,086] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:04:17,107] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.039 seconds
+[2022-05-17 07:04:47,841] {processor.py:163} INFO - Started process (PID=11367) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:04:47,842] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:04:47,843] {logging_mixin.py:109} INFO - [2022-05-17 07:04:47,843] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:04:47,856] {logging_mixin.py:109} INFO - [2022-05-17 07:04:47,854] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:04:47,857] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:04:47,878] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.041 seconds
+[2022-05-17 07:05:18,602] {processor.py:163} INFO - Started process (PID=11440) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:05:18,603] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:05:18,604] {logging_mixin.py:109} INFO - [2022-05-17 07:05:18,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:05:18,617] {logging_mixin.py:109} INFO - [2022-05-17 07:05:18,614] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:05:18,618] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:05:18,638] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.039 seconds
+[2022-05-17 07:05:49,370] {processor.py:163} INFO - Started process (PID=11503) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:05:49,372] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:05:49,373] {logging_mixin.py:109} INFO - [2022-05-17 07:05:49,373] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:05:49,391] {logging_mixin.py:109} INFO - [2022-05-17 07:05:49,388] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:05:49,393] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:05:49,419] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.053 seconds
+[2022-05-17 07:06:20,024] {processor.py:163} INFO - Started process (PID=11576) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:06:20,025] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:06:20,026] {logging_mixin.py:109} INFO - [2022-05-17 07:06:20,026] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:06:20,046] {logging_mixin.py:109} INFO - [2022-05-17 07:06:20,042] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:06:20,048] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:06:20,080] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.062 seconds
+[2022-05-17 07:06:50,414] {processor.py:163} INFO - Started process (PID=11639) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:06:50,417] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:06:50,418] {logging_mixin.py:109} INFO - [2022-05-17 07:06:50,417] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:06:50,444] {logging_mixin.py:109} INFO - [2022-05-17 07:06:50,440] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:06:50,446] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:06:50,478] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.067 seconds
+[2022-05-17 07:07:20,734] {processor.py:163} INFO - Started process (PID=11713) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:07:20,738] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:07:20,744] {logging_mixin.py:109} INFO - [2022-05-17 07:07:20,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:07:20,793] {logging_mixin.py:109} INFO - [2022-05-17 07:07:20,778] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:07:20,795] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:07:20,843] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.123 seconds
+[2022-05-17 07:07:50,989] {processor.py:163} INFO - Started process (PID=11777) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:07:50,990] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:07:50,991] {logging_mixin.py:109} INFO - [2022-05-17 07:07:50,991] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:07:51,008] {logging_mixin.py:109} INFO - [2022-05-17 07:07:51,004] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:07:51,009] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:07:51,036] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.050 seconds
+[2022-05-17 07:08:21,342] {processor.py:163} INFO - Started process (PID=11839) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:08:21,344] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:08:21,346] {logging_mixin.py:109} INFO - [2022-05-17 07:08:21,345] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:08:21,370] {logging_mixin.py:109} INFO - [2022-05-17 07:08:21,366] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:08:21,372] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:08:21,403] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.065 seconds
+[2022-05-17 07:08:51,511] {processor.py:163} INFO - Started process (PID=11902) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:08:51,512] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:08:51,513] {logging_mixin.py:109} INFO - [2022-05-17 07:08:51,513] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:08:51,533] {logging_mixin.py:109} INFO - [2022-05-17 07:08:51,529] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:08:51,534] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:08:51,560] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.053 seconds
+[2022-05-17 07:09:22,027] {processor.py:163} INFO - Started process (PID=11974) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:09:22,028] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:09:22,029] {logging_mixin.py:109} INFO - [2022-05-17 07:09:22,029] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:09:22,070] {logging_mixin.py:109} INFO - [2022-05-17 07:09:22,059] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:09:22,072] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:09:22,139] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.119 seconds
+[2022-05-17 07:09:52,267] {processor.py:163} INFO - Started process (PID=12037) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:09:52,269] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:09:52,269] {logging_mixin.py:109} INFO - [2022-05-17 07:09:52,269] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:09:52,285] {logging_mixin.py:109} INFO - [2022-05-17 07:09:52,282] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:09:52,286] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:09:52,309] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.045 seconds
+[2022-05-17 07:10:23,026] {processor.py:163} INFO - Started process (PID=12100) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:10:23,027] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:10:23,028] {logging_mixin.py:109} INFO - [2022-05-17 07:10:23,028] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:10:23,051] {logging_mixin.py:109} INFO - [2022-05-17 07:10:23,046] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:10:23,053] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:10:23,084] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.062 seconds
+[2022-05-17 07:10:53,347] {processor.py:163} INFO - Started process (PID=12165) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:10:53,349] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:10:53,350] {logging_mixin.py:109} INFO - [2022-05-17 07:10:53,350] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:10:53,371] {logging_mixin.py:109} INFO - [2022-05-17 07:10:53,366] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:10:53,372] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:10:53,398] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.054 seconds
+[2022-05-17 07:11:23,502] {processor.py:163} INFO - Started process (PID=12242) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:11:23,504] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:11:23,505] {logging_mixin.py:109} INFO - [2022-05-17 07:11:23,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:11:23,533] {logging_mixin.py:109} INFO - [2022-05-17 07:11:23,527] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:11:23,535] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:11:23,572] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.073 seconds
+[2022-05-17 07:11:54,104] {processor.py:163} INFO - Started process (PID=12304) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:11:54,106] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:11:54,107] {logging_mixin.py:109} INFO - [2022-05-17 07:11:54,107] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:11:54,134] {logging_mixin.py:109} INFO - [2022-05-17 07:11:54,128] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:11:54,136] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:11:54,173] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.073 seconds
+[2022-05-17 07:12:48,978] {processor.py:163} INFO - Started process (PID=12367) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:12:48,981] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:12:48,983] {logging_mixin.py:109} INFO - [2022-05-17 07:12:48,982] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:12:49,040] {logging_mixin.py:109} INFO - [2022-05-17 07:12:49,023] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:12:49,050] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:12:49,105] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.139 seconds
+[2022-05-17 07:13:19,586] {processor.py:163} INFO - Started process (PID=12431) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:13:19,587] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:13:19,588] {logging_mixin.py:109} INFO - [2022-05-17 07:13:19,588] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:13:19,602] {logging_mixin.py:109} INFO - [2022-05-17 07:13:19,599] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:13:19,603] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:13:19,626] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.043 seconds
+[2022-05-17 07:13:50,676] {processor.py:163} INFO - Started process (PID=12506) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:13:50,677] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:13:50,678] {logging_mixin.py:109} INFO - [2022-05-17 07:13:50,678] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:13:50,699] {logging_mixin.py:109} INFO - [2022-05-17 07:13:50,695] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:13:50,700] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:13:50,729] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.056 seconds
+[2022-05-17 07:14:20,862] {processor.py:163} INFO - Started process (PID=12572) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:14:20,863] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:14:20,864] {logging_mixin.py:109} INFO - [2022-05-17 07:14:20,864] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:14:20,877] {logging_mixin.py:109} INFO - [2022-05-17 07:14:20,874] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:14:20,878] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:14:20,906] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.046 seconds
+[2022-05-17 07:14:51,983] {processor.py:163} INFO - Started process (PID=12645) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:14:51,984] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:14:51,985] {logging_mixin.py:109} INFO - [2022-05-17 07:14:51,985] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:14:51,999] {logging_mixin.py:109} INFO - [2022-05-17 07:14:51,996] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:14:52,000] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:14:52,023] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.043 seconds
+[2022-05-17 07:15:22,761] {processor.py:163} INFO - Started process (PID=12709) to work on /opt/airflow/dags/ej9.py
+[2022-05-17 07:15:22,762] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej9.py for tasks to queue
+[2022-05-17 07:15:22,763] {logging_mixin.py:109} INFO - [2022-05-17 07:15:22,763] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej9.py
+[2022-05-17 07:15:22,780] {logging_mixin.py:109} INFO - [2022-05-17 07:15:22,776] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej9.py", line 3, in <module>
+    from airflow.providers.apache.pig.operators.pig import PigOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-05-17 07:15:22,782] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej9.py
+[2022-05-17 07:15:22,806] {processor.py:171} INFO - Processing /opt/airflow/dags/ej9.py took 0.049 seconds

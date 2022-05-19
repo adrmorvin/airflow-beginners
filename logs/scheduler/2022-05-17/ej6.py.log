@@ -1,0 +1,238 @@
+[2022-05-17 06:58:11,586] {processor.py:163} INFO - Started process (PID=10484) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 06:58:11,589] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 06:58:11,591] {logging_mixin.py:109} INFO - [2022-05-17 06:58:11,590] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 06:58:11,656] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 06:58:12,028] {logging_mixin.py:109} INFO - [2022-05-17 06:58:12,028] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 06:58:12,052] {logging_mixin.py:109} INFO - [2022-05-17 06:58:12,052] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 06:58:12,076] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.501 seconds
+[2022-05-17 06:58:42,760] {processor.py:163} INFO - Started process (PID=10546) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 06:58:42,761] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 06:58:42,762] {logging_mixin.py:109} INFO - [2022-05-17 06:58:42,762] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 06:58:42,788] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 06:58:42,807] {logging_mixin.py:109} INFO - [2022-05-17 06:58:42,807] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 06:58:42,821] {logging_mixin.py:109} INFO - [2022-05-17 06:58:42,821] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 06:58:42,840] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.083 seconds
+[2022-05-17 06:59:12,912] {processor.py:163} INFO - Started process (PID=10619) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 06:59:12,914] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 06:59:12,915] {logging_mixin.py:109} INFO - [2022-05-17 06:59:12,915] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 06:59:12,956] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 06:59:12,980] {logging_mixin.py:109} INFO - [2022-05-17 06:59:12,980] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 06:59:12,999] {logging_mixin.py:109} INFO - [2022-05-17 06:59:12,999] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 06:59:13,016] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.108 seconds
+[2022-05-17 06:59:43,164] {processor.py:163} INFO - Started process (PID=10682) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 06:59:43,165] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 06:59:43,166] {logging_mixin.py:109} INFO - [2022-05-17 06:59:43,166] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 06:59:43,203] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 06:59:43,222] {logging_mixin.py:109} INFO - [2022-05-17 06:59:43,222] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 06:59:43,236] {logging_mixin.py:109} INFO - [2022-05-17 06:59:43,236] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 06:59:43,251] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.090 seconds
+[2022-05-17 07:00:13,632] {processor.py:163} INFO - Started process (PID=10755) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:00:13,634] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:00:13,634] {logging_mixin.py:109} INFO - [2022-05-17 07:00:13,634] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:00:13,661] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:00:13,680] {logging_mixin.py:109} INFO - [2022-05-17 07:00:13,679] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:00:13,693] {logging_mixin.py:109} INFO - [2022-05-17 07:00:13,693] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:00:13,708] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.079 seconds
+[2022-05-17 07:00:44,454] {processor.py:163} INFO - Started process (PID=10818) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:00:44,455] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:00:44,456] {logging_mixin.py:109} INFO - [2022-05-17 07:00:44,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:00:44,481] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:00:44,499] {logging_mixin.py:109} INFO - [2022-05-17 07:00:44,499] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:00:44,513] {logging_mixin.py:109} INFO - [2022-05-17 07:00:44,513] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:00:44,529] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.078 seconds
+[2022-05-17 07:01:15,143] {processor.py:163} INFO - Started process (PID=10891) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:01:15,144] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:01:15,145] {logging_mixin.py:109} INFO - [2022-05-17 07:01:15,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:01:15,171] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:01:15,195] {logging_mixin.py:109} INFO - [2022-05-17 07:01:15,195] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:01:15,209] {logging_mixin.py:109} INFO - [2022-05-17 07:01:15,209] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:01:15,224] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.084 seconds
+[2022-05-17 07:01:45,905] {processor.py:163} INFO - Started process (PID=10963) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:01:45,906] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:01:45,907] {logging_mixin.py:109} INFO - [2022-05-17 07:01:45,907] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:01:45,933] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:01:45,952] {logging_mixin.py:109} INFO - [2022-05-17 07:01:45,952] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:01:45,966] {logging_mixin.py:109} INFO - [2022-05-17 07:01:45,966] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:01:45,984] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.082 seconds
+[2022-05-17 07:02:16,486] {processor.py:163} INFO - Started process (PID=11027) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:02:16,488] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:02:16,488] {logging_mixin.py:109} INFO - [2022-05-17 07:02:16,488] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:02:16,512] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:02:16,530] {logging_mixin.py:109} INFO - [2022-05-17 07:02:16,530] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:02:16,543] {logging_mixin.py:109} INFO - [2022-05-17 07:02:16,543] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:02:16,563] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.079 seconds
+[2022-05-17 07:02:46,699] {processor.py:163} INFO - Started process (PID=11100) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:02:46,700] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:02:46,700] {logging_mixin.py:109} INFO - [2022-05-17 07:02:46,700] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:02:46,725] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:02:46,744] {logging_mixin.py:109} INFO - [2022-05-17 07:02:46,744] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:02:46,758] {logging_mixin.py:109} INFO - [2022-05-17 07:02:46,758] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:02:46,773] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.078 seconds
+[2022-05-17 07:03:16,863] {processor.py:163} INFO - Started process (PID=11164) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:03:16,865] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:03:16,865] {logging_mixin.py:109} INFO - [2022-05-17 07:03:16,865] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:03:16,890] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:03:16,908] {logging_mixin.py:109} INFO - [2022-05-17 07:03:16,908] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:03:16,922] {logging_mixin.py:109} INFO - [2022-05-17 07:03:16,922] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:03:16,936] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.076 seconds
+[2022-05-17 07:03:47,540] {processor.py:163} INFO - Started process (PID=11238) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:03:47,541] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:03:47,542] {logging_mixin.py:109} INFO - [2022-05-17 07:03:47,542] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:03:47,566] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:03:47,585] {logging_mixin.py:109} INFO - [2022-05-17 07:03:47,585] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:03:47,600] {logging_mixin.py:109} INFO - [2022-05-17 07:03:47,600] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:03:47,617] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.079 seconds
+[2022-05-17 07:04:18,235] {processor.py:163} INFO - Started process (PID=11311) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:04:18,236] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:04:18,237] {logging_mixin.py:109} INFO - [2022-05-17 07:04:18,237] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:04:18,263] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:04:18,284] {logging_mixin.py:109} INFO - [2022-05-17 07:04:18,284] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:04:18,299] {logging_mixin.py:109} INFO - [2022-05-17 07:04:18,299] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:04:18,311] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.080 seconds
+[2022-05-17 07:04:49,097] {processor.py:163} INFO - Started process (PID=11373) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:04:49,098] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:04:49,098] {logging_mixin.py:109} INFO - [2022-05-17 07:04:49,098] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:04:49,124] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:04:49,143] {logging_mixin.py:109} INFO - [2022-05-17 07:04:49,143] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:04:49,157] {logging_mixin.py:109} INFO - [2022-05-17 07:04:49,157] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:04:49,176] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.082 seconds
+[2022-05-17 07:05:19,840] {processor.py:163} INFO - Started process (PID=11446) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:05:19,841] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:05:19,842] {logging_mixin.py:109} INFO - [2022-05-17 07:05:19,841] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:05:19,872] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:05:19,894] {logging_mixin.py:109} INFO - [2022-05-17 07:05:19,893] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:05:19,911] {logging_mixin.py:109} INFO - [2022-05-17 07:05:19,911] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:05:19,931] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.094 seconds
+[2022-05-17 07:05:50,569] {processor.py:163} INFO - Started process (PID=11509) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:05:50,571] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:05:50,571] {logging_mixin.py:109} INFO - [2022-05-17 07:05:50,571] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:05:50,597] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:05:50,616] {logging_mixin.py:109} INFO - [2022-05-17 07:05:50,616] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:05:50,629] {logging_mixin.py:109} INFO - [2022-05-17 07:05:50,628] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:05:50,648] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.082 seconds
+[2022-05-17 07:06:21,319] {processor.py:163} INFO - Started process (PID=11582) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:06:21,320] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:06:21,321] {logging_mixin.py:109} INFO - [2022-05-17 07:06:21,321] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:06:21,360] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:06:21,385] {logging_mixin.py:109} INFO - [2022-05-17 07:06:21,385] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:06:21,404] {logging_mixin.py:109} INFO - [2022-05-17 07:06:21,404] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:06:21,419] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.103 seconds
+[2022-05-17 07:06:51,685] {processor.py:163} INFO - Started process (PID=11645) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:06:51,687] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:06:51,688] {logging_mixin.py:109} INFO - [2022-05-17 07:06:51,688] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:06:51,728] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:06:51,757] {logging_mixin.py:109} INFO - [2022-05-17 07:06:51,757] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:06:51,779] {logging_mixin.py:109} INFO - [2022-05-17 07:06:51,779] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:06:51,804] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.123 seconds
+[2022-05-17 07:07:22,281] {processor.py:163} INFO - Started process (PID=11719) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:07:22,283] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:07:22,284] {logging_mixin.py:109} INFO - [2022-05-17 07:07:22,284] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:07:22,343] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:07:22,391] {logging_mixin.py:109} INFO - [2022-05-17 07:07:22,391] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:07:22,432] {logging_mixin.py:109} INFO - [2022-05-17 07:07:22,432] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:07:22,459] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.184 seconds
+[2022-05-17 07:07:52,661] {processor.py:163} INFO - Started process (PID=11783) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:07:52,664] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:07:52,668] {logging_mixin.py:109} INFO - [2022-05-17 07:07:52,666] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:07:52,723] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:07:52,743] {logging_mixin.py:109} INFO - [2022-05-17 07:07:52,743] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:07:52,759] {logging_mixin.py:109} INFO - [2022-05-17 07:07:52,758] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:07:52,772] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.118 seconds
+[2022-05-17 07:08:22,815] {processor.py:163} INFO - Started process (PID=11845) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:08:22,817] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:08:22,818] {logging_mixin.py:109} INFO - [2022-05-17 07:08:22,817] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:08:22,866] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:08:22,895] {logging_mixin.py:109} INFO - [2022-05-17 07:08:22,895] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:08:22,918] {logging_mixin.py:109} INFO - [2022-05-17 07:08:22,918] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:08:22,936] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.125 seconds
+[2022-05-17 07:08:52,982] {processor.py:163} INFO - Started process (PID=11908) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:08:52,983] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:08:52,984] {logging_mixin.py:109} INFO - [2022-05-17 07:08:52,984] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:08:53,017] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:08:53,036] {logging_mixin.py:109} INFO - [2022-05-17 07:08:53,036] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:08:53,053] {logging_mixin.py:109} INFO - [2022-05-17 07:08:53,052] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:08:53,067] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.088 seconds
+[2022-05-17 07:09:23,525] {processor.py:163} INFO - Started process (PID=11980) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:09:23,527] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:09:23,528] {logging_mixin.py:109} INFO - [2022-05-17 07:09:23,528] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:09:23,589] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:09:23,622] {logging_mixin.py:109} INFO - [2022-05-17 07:09:23,622] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:09:23,664] {logging_mixin.py:109} INFO - [2022-05-17 07:09:23,663] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:09:23,691] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.172 seconds
+[2022-05-17 07:09:54,639] {processor.py:163} INFO - Started process (PID=12044) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:09:54,641] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:09:54,642] {logging_mixin.py:109} INFO - [2022-05-17 07:09:54,642] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:09:54,699] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:09:54,734] {logging_mixin.py:109} INFO - [2022-05-17 07:09:54,734] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:09:54,760] {logging_mixin.py:109} INFO - [2022-05-17 07:09:54,759] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:09:54,785] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.150 seconds
+[2022-05-17 07:10:25,309] {processor.py:163} INFO - Started process (PID=12106) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:10:25,310] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:10:25,310] {logging_mixin.py:109} INFO - [2022-05-17 07:10:25,310] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:10:25,346] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:10:25,369] {logging_mixin.py:109} INFO - [2022-05-17 07:10:25,369] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:10:25,387] {logging_mixin.py:109} INFO - [2022-05-17 07:10:25,386] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:10:25,406] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.100 seconds
+[2022-05-17 07:10:55,715] {processor.py:163} INFO - Started process (PID=12182) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:10:55,717] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:10:55,721] {logging_mixin.py:109} INFO - [2022-05-17 07:10:55,721] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:10:55,779] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:10:55,810] {logging_mixin.py:109} INFO - [2022-05-17 07:10:55,810] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:10:55,838] {logging_mixin.py:109} INFO - [2022-05-17 07:10:55,837] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:10:55,861] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.151 seconds
+[2022-05-17 07:11:25,950] {processor.py:163} INFO - Started process (PID=12248) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:11:25,952] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:11:25,955] {logging_mixin.py:109} INFO - [2022-05-17 07:11:25,955] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:11:26,012] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:11:26,042] {logging_mixin.py:109} INFO - [2022-05-17 07:11:26,042] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:11:26,064] {logging_mixin.py:109} INFO - [2022-05-17 07:11:26,064] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:11:26,085] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.140 seconds
+[2022-05-17 07:11:56,520] {processor.py:163} INFO - Started process (PID=12310) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:11:56,522] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:11:56,523] {logging_mixin.py:109} INFO - [2022-05-17 07:11:56,523] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:11:56,579] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:11:56,611] {logging_mixin.py:109} INFO - [2022-05-17 07:11:56,610] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:11:56,640] {logging_mixin.py:109} INFO - [2022-05-17 07:11:56,640] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:11:56,658] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.144 seconds
+[2022-05-17 07:12:49,521] {processor.py:163} INFO - Started process (PID=12373) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:12:49,524] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:12:49,526] {logging_mixin.py:109} INFO - [2022-05-17 07:12:49,525] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:12:49,584] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:12:49,628] {logging_mixin.py:109} INFO - [2022-05-17 07:12:49,627] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:12:49,663] {logging_mixin.py:109} INFO - [2022-05-17 07:12:49,663] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:12:49,691] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.176 seconds
+[2022-05-17 07:13:19,833] {processor.py:163} INFO - Started process (PID=12437) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:13:19,834] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:13:19,835] {logging_mixin.py:109} INFO - [2022-05-17 07:13:19,835] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:13:19,858] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:13:19,876] {logging_mixin.py:109} INFO - [2022-05-17 07:13:19,876] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:13:19,889] {logging_mixin.py:109} INFO - [2022-05-17 07:13:19,889] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:13:19,910] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.080 seconds
+[2022-05-17 07:13:51,132] {processor.py:163} INFO - Started process (PID=12514) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:13:51,133] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:13:51,134] {logging_mixin.py:109} INFO - [2022-05-17 07:13:51,134] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:13:51,166] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:13:51,188] {logging_mixin.py:109} INFO - [2022-05-17 07:13:51,187] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:13:51,204] {logging_mixin.py:109} INFO - [2022-05-17 07:13:51,204] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:13:51,217] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.089 seconds
+[2022-05-17 07:14:21,250] {processor.py:163} INFO - Started process (PID=12578) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:14:21,252] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:14:21,253] {logging_mixin.py:109} INFO - [2022-05-17 07:14:21,252] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:14:21,277] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:14:21,295] {logging_mixin.py:109} INFO - [2022-05-17 07:14:21,295] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:14:21,308] {logging_mixin.py:109} INFO - [2022-05-17 07:14:21,308] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:14:21,322] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.075 seconds
+[2022-05-17 07:14:52,173] {processor.py:163} INFO - Started process (PID=12651) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:14:52,174] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:14:52,175] {logging_mixin.py:109} INFO - [2022-05-17 07:14:52,175] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:14:52,205] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:14:52,226] {logging_mixin.py:109} INFO - [2022-05-17 07:14:52,226] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:14:52,243] {logging_mixin.py:109} INFO - [2022-05-17 07:14:52,243] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:14:52,258] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.087 seconds
+[2022-05-17 07:15:22,979] {processor.py:163} INFO - Started process (PID=12715) to work on /opt/airflow/dags/ej6.py
+[2022-05-17 07:15:22,981] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej6.py for tasks to queue
+[2022-05-17 07:15:22,982] {logging_mixin.py:109} INFO - [2022-05-17 07:15:22,982] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej6.py
+[2022-05-17 07:15:23,016] {processor.py:652} INFO - DAG(s) dict_keys(['ej6']) retrieved from /opt/airflow/dags/ej6.py
+[2022-05-17 07:15:23,105] {logging_mixin.py:109} INFO - [2022-05-17 07:15:23,105] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-17 07:15:23,125] {logging_mixin.py:109} INFO - [2022-05-17 07:15:23,125] {dag.py:2937} INFO - Setting next_dagrun for ej6 to 2022-05-16T00:00:00+00:00
+[2022-05-17 07:15:23,137] {processor.py:171} INFO - Processing /opt/airflow/dags/ej6.py took 0.161 seconds

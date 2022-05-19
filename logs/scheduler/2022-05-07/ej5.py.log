@@ -1,0 +1,7 @@
+[2022-05-07 07:01:47,142] {processor.py:163} INFO - Started process (PID=8756) to work on /opt/airflow/dags/ej5.py
+[2022-05-07 07:01:47,146] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej5.py for tasks to queue
+[2022-05-07 07:01:47,150] {logging_mixin.py:109} INFO - [2022-05-07 07:01:47,149] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej5.py
+[2022-05-07 07:01:47,245] {processor.py:652} INFO - DAG(s) dict_keys(['ej5']) retrieved from /opt/airflow/dags/ej5.py
+[2022-05-07 07:01:48,093] {logging_mixin.py:109} INFO - [2022-05-07 07:01:48,091] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-07 07:01:48,140] {logging_mixin.py:109} INFO - [2022-05-07 07:01:48,139] {dag.py:2937} INFO - Setting next_dagrun for ej5 to 2022-05-06T00:00:00+00:00
+[2022-05-07 07:01:48,194] {processor.py:171} INFO - Processing /opt/airflow/dags/ej5.py took 1.058 seconds

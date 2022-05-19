@@ -1,0 +1,140 @@
+[2022-04-29 18:00:44,093] {processor.py:163} INFO - Started process (PID=14576) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:00:44,120] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:00:44,139] {logging_mixin.py:109} INFO - [2022-04-29 18:00:44,139] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:00:48,692] {logging_mixin.py:109} INFO - [2022-04-29 18:00:48,564] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:00:48,724] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:00:48,877] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 4.788 seconds
+[2022-04-29 18:01:32,992] {processor.py:163} INFO - Started process (PID=14627) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:01:32,999] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:01:33,001] {logging_mixin.py:109} INFO - [2022-04-29 18:01:33,000] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:01:33,103] {logging_mixin.py:109} INFO - [2022-04-29 18:01:33,080] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:01:33,105] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:01:33,169] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 0.187 seconds
+[2022-04-29 18:02:06,307] {processor.py:163} INFO - Started process (PID=14675) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:02:06,323] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:02:06,333] {logging_mixin.py:109} INFO - [2022-04-29 18:02:06,332] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:02:06,452] {logging_mixin.py:109} INFO - [2022-04-29 18:02:06,443] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:02:06,459] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:02:06,565] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 0.263 seconds
+[2022-04-29 18:02:36,668] {processor.py:163} INFO - Started process (PID=14737) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:02:36,670] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:02:36,672] {logging_mixin.py:109} INFO - [2022-04-29 18:02:36,672] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:02:36,714] {logging_mixin.py:109} INFO - [2022-04-29 18:02:36,701] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:02:36,715] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:02:36,775] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 0.120 seconds
+[2022-04-29 18:03:07,339] {processor.py:163} INFO - Started process (PID=14794) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:03:07,342] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:03:07,343] {logging_mixin.py:109} INFO - [2022-04-29 18:03:07,343] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:03:07,405] {logging_mixin.py:109} INFO - [2022-04-29 18:03:07,398] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:03:07,407] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:03:07,445] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 0.112 seconds
+[2022-04-29 18:03:37,721] {processor.py:163} INFO - Started process (PID=14855) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:03:37,723] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:03:37,724] {logging_mixin.py:109} INFO - [2022-04-29 18:03:37,724] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:03:37,755] {logging_mixin.py:109} INFO - [2022-04-29 18:03:37,751] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:03:37,757] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:03:37,795] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 0.078 seconds
+[2022-04-29 18:04:08,278] {processor.py:163} INFO - Started process (PID=14917) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:04:08,280] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:04:08,281] {logging_mixin.py:109} INFO - [2022-04-29 18:04:08,281] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:04:08,311] {logging_mixin.py:109} INFO - [2022-04-29 18:04:08,305] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:04:08,313] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:04:08,343] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 0.069 seconds
+[2022-04-29 18:04:38,453] {processor.py:163} INFO - Started process (PID=14989) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:04:38,454] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:04:38,455] {logging_mixin.py:109} INFO - [2022-04-29 18:04:38,455] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:04:38,474] {logging_mixin.py:109} INFO - [2022-04-29 18:04:38,471] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:04:38,475] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:04:38,498] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 0.048 seconds
+[2022-04-29 18:05:08,587] {processor.py:163} INFO - Started process (PID=15050) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:05:08,588] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:05:08,589] {logging_mixin.py:109} INFO - [2022-04-29 18:05:08,589] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:05:08,609] {logging_mixin.py:109} INFO - [2022-04-29 18:05:08,607] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:05:08,610] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:05:08,634] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 0.050 seconds
+[2022-04-29 18:05:43,909] {processor.py:163} INFO - Started process (PID=15118) to work on /opt/airflow/dags/ej8.py
+[2022-04-29 18:05:43,910] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej8.py for tasks to queue
+[2022-04-29 18:05:43,911] {logging_mixin.py:109} INFO - [2022-04-29 18:05:43,911] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej8.py
+[2022-04-29 18:05:43,937] {logging_mixin.py:109} INFO - [2022-04-29 18:05:43,933] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej8.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej8.py", line 4, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-04-29 18:05:43,939] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej8.py
+[2022-04-29 18:05:43,970] {processor.py:171} INFO - Processing /opt/airflow/dags/ej8.py took 0.064 seconds

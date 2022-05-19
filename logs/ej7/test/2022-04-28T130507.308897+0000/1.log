@@ -1,0 +1,34 @@
+[2022-04-28 13:05:08,646] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: ej7.test manual__2022-04-28T13:05:07.308897+00:00 [queued]>
+[2022-04-28 13:05:08,657] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: ej7.test manual__2022-04-28T13:05:07.308897+00:00 [queued]>
+[2022-04-28 13:05:08,657] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 13:05:08,658] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-04-28 13:05:08,658] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 13:05:08,672] {taskinstance.py:1270} INFO - Executing <Task(BashOperator): test> on 2022-04-28 13:05:07.308897+00:00
+[2022-04-28 13:05:08,678] {standard_task_runner.py:52} INFO - Started process 26235 to run task
+[2022-04-28 13:05:08,682] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'ej7', 'test', 'manual__2022-04-28T13:05:07.308897+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/ej7.py', '--cfg-path', '/tmp/tmphepy7dmj', '--error-file', '/tmp/tmpuakbo06y']
+[2022-04-28 13:05:08,683] {standard_task_runner.py:80} INFO - Job 15: Subtask test
+[2022-04-28 13:05:08,745] {logging_mixin.py:109} INFO - Running <TaskInstance: ej7.test manual__2022-04-28T13:05:07.308897+00:00 [running]> on host 65467f9f0591
+[2022-04-28 13:05:08,794] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ej7
+AIRFLOW_CTX_TASK_ID=test
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-28T13:05:07.308897+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-28T13:05:07.308897+00:00
+[2022-04-28 13:05:08,795] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-04-28 13:05:08,796] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'hdfs dfs -test -e hdfs://sandbox.hortonworks.com:8020/root/tmp/adrian_moreno/solutions.txt']
+[2022-04-28 13:05:08,804] {subprocess.py:85} INFO - Output:
+[2022-04-28 13:05:08,806] {subprocess.py:89} INFO - bash: hdfs: command not found
+[2022-04-28 13:05:08,807] {subprocess.py:93} INFO - Command exited with return code 127
+[2022-04-28 13:05:08,819] {taskinstance.py:1774} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 188, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2022-04-28 13:05:08,824] {taskinstance.py:1288} INFO - Marking task as UP_FOR_RETRY. dag_id=ej7, task_id=test, execution_date=20220428T130507, start_date=20220428T130508, end_date=20220428T130508
+[2022-04-28 13:05:08,838] {standard_task_runner.py:98} ERROR - Failed to execute job 15 for task test (Bash command failed. The command returned a non-zero exit code 127.; 26235)
+[2022-04-28 13:05:08,854] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-28 13:05:08,897] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

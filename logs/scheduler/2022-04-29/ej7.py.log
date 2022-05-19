@@ -1,0 +1,70 @@
+[2022-04-29 18:00:49,177] {processor.py:163} INFO - Started process (PID=14578) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:00:49,213] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:00:49,248] {logging_mixin.py:109} INFO - [2022-04-29 18:00:49,247] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:00:49,897] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:00:51,213] {logging_mixin.py:109} INFO - [2022-04-29 18:00:51,213] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:00:51,264] {logging_mixin.py:109} INFO - [2022-04-29 18:00:51,264] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:00:57,037] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 7.881 seconds
+[2022-04-29 18:01:33,443] {processor.py:163} INFO - Started process (PID=14629) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:01:33,455] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:01:33,460] {logging_mixin.py:109} INFO - [2022-04-29 18:01:33,459] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:01:33,550] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:01:33,620] {logging_mixin.py:109} INFO - [2022-04-29 18:01:33,620] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:01:33,683] {logging_mixin.py:109} INFO - [2022-04-29 18:01:33,683] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:01:34,175] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 0.739 seconds
+[2022-04-29 18:02:06,667] {processor.py:163} INFO - Started process (PID=14677) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:02:06,670] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:02:06,682] {logging_mixin.py:109} INFO - [2022-04-29 18:02:06,682] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:02:06,889] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:02:07,000] {logging_mixin.py:109} INFO - [2022-04-29 18:02:07,000] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:02:07,081] {logging_mixin.py:109} INFO - [2022-04-29 18:02:07,081] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:02:08,537] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 1.879 seconds
+[2022-04-29 18:02:38,883] {processor.py:163} INFO - Started process (PID=14739) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:02:38,896] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:02:38,903] {logging_mixin.py:109} INFO - [2022-04-29 18:02:38,903] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:02:39,134] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:02:39,197] {logging_mixin.py:109} INFO - [2022-04-29 18:02:39,196] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:02:39,247] {logging_mixin.py:109} INFO - [2022-04-29 18:02:39,247] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:02:39,277] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 0.399 seconds
+[2022-04-29 18:03:09,799] {processor.py:163} INFO - Started process (PID=14799) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:03:09,802] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:03:09,803] {logging_mixin.py:109} INFO - [2022-04-29 18:03:09,803] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:03:09,854] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:03:09,875] {logging_mixin.py:109} INFO - [2022-04-29 18:03:09,875] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:03:09,892] {logging_mixin.py:109} INFO - [2022-04-29 18:03:09,892] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:03:09,906] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 0.110 seconds
+[2022-04-29 18:03:40,135] {processor.py:163} INFO - Started process (PID=14860) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:03:40,138] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:03:40,139] {logging_mixin.py:109} INFO - [2022-04-29 18:03:40,139] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:03:40,184] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:03:40,219] {logging_mixin.py:109} INFO - [2022-04-29 18:03:40,219] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:03:40,248] {logging_mixin.py:109} INFO - [2022-04-29 18:03:40,248] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:03:40,268] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 0.137 seconds
+[2022-04-29 18:04:10,505] {processor.py:163} INFO - Started process (PID=14922) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:04:10,506] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:04:10,507] {logging_mixin.py:109} INFO - [2022-04-29 18:04:10,507] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:04:10,543] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:04:10,563] {logging_mixin.py:109} INFO - [2022-04-29 18:04:10,563] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:04:10,577] {logging_mixin.py:109} INFO - [2022-04-29 18:04:10,577] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:04:10,593] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 0.092 seconds
+[2022-04-29 18:04:40,655] {processor.py:163} INFO - Started process (PID=14993) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:04:40,656] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:04:40,657] {logging_mixin.py:109} INFO - [2022-04-29 18:04:40,657] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:04:40,677] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:04:40,698] {logging_mixin.py:109} INFO - [2022-04-29 18:04:40,698] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:04:40,719] {logging_mixin.py:109} INFO - [2022-04-29 18:04:40,719] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:04:40,739] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 0.087 seconds
+[2022-04-29 18:05:10,803] {processor.py:163} INFO - Started process (PID=15053) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:05:10,804] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:05:10,805] {logging_mixin.py:109} INFO - [2022-04-29 18:05:10,805] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:05:10,833] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:05:10,855] {logging_mixin.py:109} INFO - [2022-04-29 18:05:10,855] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:05:10,871] {logging_mixin.py:109} INFO - [2022-04-29 18:05:10,870] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:05:10,887] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 0.087 seconds
+[2022-04-29 18:05:43,999] {processor.py:163} INFO - Started process (PID=15120) to work on /opt/airflow/dags/ej7.py
+[2022-04-29 18:05:44,001] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej7.py for tasks to queue
+[2022-04-29 18:05:44,002] {logging_mixin.py:109} INFO - [2022-04-29 18:05:44,002] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej7.py
+[2022-04-29 18:05:44,041] {processor.py:652} INFO - DAG(s) dict_keys(['ej7']) retrieved from /opt/airflow/dags/ej7.py
+[2022-04-29 18:05:44,067] {logging_mixin.py:109} INFO - [2022-04-29 18:05:44,067] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 18:05:44,085] {logging_mixin.py:109} INFO - [2022-04-29 18:05:44,085] {dag.py:2937} INFO - Setting next_dagrun for ej7 to 2022-04-28T00:00:00+00:00
+[2022-04-29 18:05:44,103] {processor.py:171} INFO - Processing /opt/airflow/dags/ej7.py took 0.107 seconds

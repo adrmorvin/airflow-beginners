@@ -1,0 +1,140 @@
+[2022-04-29 18:00:44,118] {processor.py:163} INFO - Started process (PID=14577) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:00:44,139] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:00:44,141] {logging_mixin.py:109} INFO - [2022-04-29 18:00:44,141] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:00:48,711] {logging_mixin.py:109} INFO - [2022-04-29 18:00:48,560] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:00:48,746] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:00:48,920] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 4.805 seconds
+[2022-04-29 18:01:33,239] {processor.py:163} INFO - Started process (PID=14628) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:01:33,243] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:01:33,253] {logging_mixin.py:109} INFO - [2022-04-29 18:01:33,252] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:01:33,312] {logging_mixin.py:109} INFO - [2022-04-29 18:01:33,306] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:01:33,314] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:01:33,391] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 0.160 seconds
+[2022-04-29 18:02:06,395] {processor.py:163} INFO - Started process (PID=14676) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:02:06,408] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:02:06,410] {logging_mixin.py:109} INFO - [2022-04-29 18:02:06,410] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:02:06,477] {logging_mixin.py:109} INFO - [2022-04-29 18:02:06,465] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:02:06,490] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:02:06,596] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 0.207 seconds
+[2022-04-29 18:02:36,782] {processor.py:163} INFO - Started process (PID=14738) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:02:36,785] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:02:36,787] {logging_mixin.py:109} INFO - [2022-04-29 18:02:36,787] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:02:36,846] {logging_mixin.py:109} INFO - [2022-04-29 18:02:36,835] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:02:36,849] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:02:36,889] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 0.112 seconds
+[2022-04-29 18:03:07,347] {processor.py:163} INFO - Started process (PID=14795) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:03:07,351] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:03:07,353] {logging_mixin.py:109} INFO - [2022-04-29 18:03:07,352] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:03:07,410] {logging_mixin.py:109} INFO - [2022-04-29 18:03:07,404] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:03:07,412] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:03:07,454] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 0.112 seconds
+[2022-04-29 18:03:37,727] {processor.py:163} INFO - Started process (PID=14856) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:03:37,730] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:03:37,732] {logging_mixin.py:109} INFO - [2022-04-29 18:03:37,732] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:03:37,761] {logging_mixin.py:109} INFO - [2022-04-29 18:03:37,757] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:03:37,763] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:03:37,801] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 0.078 seconds
+[2022-04-29 18:04:08,278] {processor.py:163} INFO - Started process (PID=14918) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:04:08,280] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:04:08,281] {logging_mixin.py:109} INFO - [2022-04-29 18:04:08,281] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:04:08,311] {logging_mixin.py:109} INFO - [2022-04-29 18:04:08,306] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:04:08,313] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:04:08,340] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 0.066 seconds
+[2022-04-29 18:04:38,378] {processor.py:163} INFO - Started process (PID=14988) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:04:38,381] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:04:38,383] {logging_mixin.py:109} INFO - [2022-04-29 18:04:38,383] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:04:38,406] {logging_mixin.py:109} INFO - [2022-04-29 18:04:38,403] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:04:38,407] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:04:38,432] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 0.058 seconds
+[2022-04-29 18:05:08,513] {processor.py:163} INFO - Started process (PID=15049) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:05:08,514] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:05:08,515] {logging_mixin.py:109} INFO - [2022-04-29 18:05:08,515] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:05:08,537] {logging_mixin.py:109} INFO - [2022-04-29 18:05:08,535] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:05:08,538] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:05:08,559] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 0.049 seconds
+[2022-04-29 18:05:43,909] {processor.py:163} INFO - Started process (PID=15119) to work on /opt/airflow/dags/ej4.py
+[2022-04-29 18:05:43,911] {processor.py:642} INFO - Processing file /opt/airflow/dags/ej4.py for tasks to queue
+[2022-04-29 18:05:43,912] {logging_mixin.py:109} INFO - [2022-04-29 18:05:43,912] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ej4.py
+[2022-04-29 18:05:43,939] {logging_mixin.py:109} INFO - [2022-04-29 18:05:43,934] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ej4.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ej4.py", line 36, in <module>
+    t2 = BashOperator(task_id='bash_task-commands', bash_command=commands)
+NameError: name 'commands' is not defined
+[2022-04-29 18:05:43,941] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/ej4.py
+[2022-04-29 18:05:43,967] {processor.py:171} INFO - Processing /opt/airflow/dags/ej4.py took 0.062 seconds
